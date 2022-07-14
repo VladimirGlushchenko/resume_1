@@ -1,0 +1,80 @@
+body {
+  margin: 0 0 0 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: rgb(238, 221, 198);
+}
+.container {
+  /*общий размер резюме*/
+  background-color: burlywood;
+  width: 1080px;
+  height: 1319px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left_side {
+  width: 370px;
+  height: 1319px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background-color: #1e2939; /*цвет фона*/
+  color: aliceblue; /*цвет текста*/
+  overflow: auto;
+  float: left;
+}
+img {
+  width: 370px;
+  margin-top: 42px;
+  border: 0px solid #1e2939;
+}
+h3 {
+  margin-left: 0px;
+  font-size: 22px;
+}
+.info {
+  margin-top: 42px;
+  margin-left: 85px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.contacts {
+  margin-bottom: 42px;
+}
+.tech_skills {
+  margin-bottom: 42px;
+}
+
+.right_side {
+  width: 610px;
+  height: 1319px;
+  margin-top: 66px;
+  padding-left: 100px;
+  overflow: auto;
+}
+.text_intro {
+  width: 450px;
+  margin-top: 71px;
+  margin-left: 48px;
+  margin-bottom: 80px;
+}
+h4 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 30px;
+}
+.project {
+  margin-left: 0px;
+}
+.h_project {
+  margin-left: 20px;
+}
+.work_exp {
+  width: 525px;
+  margin-top: 50px;
+  margin-left: 20px;
+  line-height: 1.2;
+}
+.data_exp {
+  font-size: 12px;
+  font-weight: lighter;
+}
